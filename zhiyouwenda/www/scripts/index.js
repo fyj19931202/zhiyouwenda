@@ -1,2 +1,4 @@
+var petname = $.cookie('petname')
+
 
 
