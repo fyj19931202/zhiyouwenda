@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style type="text/css">
+			
+			.header{
+				width: 100%;
+				height: 50px;
+				background-color: #000000;
+				color: lightgray;
+				border-radius: 20px;	
+				margin-top: 20px;
+				font-size: 30px;
+				box-sizing: border-box;
+				font-weight: 800;
+				position: relative;
+			}
+		.you{
+			position:absolute ;
+			left: 2%;
+			line-height: 50px;
+			cursor: pointer;
+			color: whitesmoke;
+		}
+		.you:hover{
+			color: purple;
+		}
+		.jia{
+			position:absolute ;
+			right: 15%;
+			line-height: 50px;
+			cursor: pointer;
+			color: whitesmoke;
+		}
+		.jia:hover{
+			color: purple;
+		}
+		.jia span{
+			position: relative;
+			top: -5px;
+			font-weight: 800;
+			right: 20%;
+		}
+		.ren{
+			position:absolute ;
+			right: 2%;
+			line-height: 50px;
+			cursor: pointer;
+			color: whitesmoke;
+			z-index: 10;
+		}
+		.ren span{
+			position: relative;
+			top: -5px;
+			font-weight: 800;
+			right: 10%;
+		}
+		
+		.ren:hover{
+			color: purple;
+		}
+			
+		section{
+			width: 100%;
+			height: auto;
+			
+		}
+		.tiwen{
+			width: 100%;
+			border-bottom: 2px solid gainsboro;
+			padding: 10px;
+			width: 90%;
+			margin: 0px auto;
+			
+		}
+		.tiwen_img{
+			float: left;
+			position: relative;
+			top: 20px;
+		}
+		.tiwen_content p{
+			position: relative;
+			left: 30px;
+			font-size: 25px;
+		}
+		.tiwen_content p span{
+			position: relative;
+			left: 350px;
+		}
+		.huida{
+			width: 100%;
+			height: auto;
+		
+			padding: 10px;
+			width: 90%;
+			margin: 0px auto;
+			border-bottom: 2px solid gainsboro;
+		}
+		
+		.huida_content{
+			float: left;
+		}
+		
+		.clear{
+			clear: both;
+		}
+		
+		
+		.huida_content p{
+		
+			font-size: 25px;
+		}
+		.huida_content p span{
+			position: relative;
+			left: 350px;
+		}
+		.huida_img{
+			float: right;
+			position: relative;
+			top: 20px;
+		}
+		.clear{
+			clear: both;
+		}
+		</style>
+	</head> 
+	<body>
+		<div class="header">
+			<div class="you">
+				智游教育
+			</div>
+			
+			<div class="glyphicon glyphicon-plus jia">
+				<span>提问</span>
+			</div>
+			
+			<div class="glyphicon glyphicon-user ren">
+				<span>name</span>
+			</div>
+		
+		</div>
+		
+		<section>
+			<div class="tiwen">
+				<div class="tiwen_img"><img src="images/user.png"/></div>
+				<div class="tiwen_content">
+					<p>userName</p>
+					<p>content</p>
+					<p>time <span>ip</span></p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<div class="huida">
+				
+				<div class="huida_content">
+					<p>userName</p>
+					<p>content</p>
+					<p>time <span>ip</span></p>
+				</div>
+				<div class="huida_img"><img src="images/user.png"/></div>
+			<div class="clear"></div>
+		
+			</div>
+			
+			
+		</section>
+		
+	</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style type="text/css">
+			.header{
+				width: 100%;
+				height: 50px;
+				background-color: #000000;
+				color: lightgray;
+				border-radius: 20px;	
+				margin-top: 20px;
+				font-size: 30px;
+				box-sizing: border-box;
+				font-weight: 800;
+				position: relative;
+			}
+		.you{
+			position:absolute ;
+			left: 2%;
+			line-height: 50px;
+			cursor: pointer;
+			color: whitesmoke;
+		}
+		.you:hover{
+			color: purple;
+		}
+		.jia{
+			position:absolute ;
+			right: 2%;
+			line-height: 50px;
+			cursor: pointer;
+			color: whitesmoke;
+		}
+		.jia:hover{
+			color: purple;
+		}
+		#h3{
+			position:absolute ;
+			left: 48.5%;
+			line-height: 50px;
+			cursor: pointer;
+			color: whitesmoke;
+		}
+		#h3:hover{
+			color: purple;
+		}
+			form input[type=text]{
+				width: 100%;
+				padding: 2px 30px;
+				margin-top: 20px;
+		
+				border-radius: 20px;	
+				font-size: 25px;
+			}
+			form input[type=submit]{
+				width: 100%;
+				padding: 2px;
+				margin-top: 20px;
+			
+				color: white;
+				background-color: mediumseagreen;
+				border-radius: 20px;	
+				font-size: 25px;
+				font-weight: 800;
+			}
+			form input[type=submit]:hover{
+			background-color: purple;
+		}
+		</style>
+	</head> 
+	<body>
+		<div class="header">
+			<div class="glyphicon glyphicon-chevron-left you">
+				
+			</div>
+			<span id="h3">
+				登录
+			</span>
+			<div class="glyphicon glyphicon-plus-sign jia">
+				
+			</div>
+		</div>
+		<form action="/login" method="post">
+			<input type="text" name="account" id="" value="" placeholder="请填写昵称"/>
+			<input type="text" name="pwd" id="" value="" placeholder="请填写密码"/>
+			<input type="submit" value="登录"/>
+		</form>
+	</body>
+</html>
+<script src="js/dlApp.js" type="text/javascript" charset="utf-8"></script>
